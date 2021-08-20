@@ -5,13 +5,12 @@
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.3.1",
+    "components": "^0.1.0",
     "parcel-bundler": "^1.12.5",
-    "postcss": "^8",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "postcss": "^8.3.6",
+    "postcss-purgecss": "^2.0.3",
+    "tailwindcss": "^2.2.7"
   },
-  "dependencies": {
-    "components": "^0.1.0"
-  }
+  "dependencies": {}
 }
