@@ -1,9 +1,28 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
 
-@import './components/typography.css';
 @import './components/accordion.css';
 @import './components/button.css';
+
+@layer base {
+  @font-face {
+    font-family: 'Ellipse';
+    src: url('../fonts/EllipseITCTT-Bold.woff2') format('woff2'),
+      url('../fonts/EllipseITCTT-Bold.woff') format('woff');
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+  h1 {
+    @apply font-heading;
+  }
+
+  h2 {
+    @apply font-light;
+  }
+
+  html {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+}
