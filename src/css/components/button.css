@@ -1,4 +1,2 @@
 .btn {
-  background: blue;
-  @apply px-4 py-2 rounded font-semibold bg-gray-200 text-black;
 }

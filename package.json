@@ -2,7 +2,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "prebuild": "yarn build:styles",
+    "prestart": "yarn build:styles"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
