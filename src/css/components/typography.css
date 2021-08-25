@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Ellipse';
+  src: url('../../fonts/EllipseITCTT-Bold.woff2') format('woff2'),
+    url('../../fonts/EllipseITCTT-Bold.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.3;
+  @apply text-black;
+}
+
+h1 {
+  @apply font-heading text-center;
+}
+
+.title-container {
+  @apply container;
+
+  h2 {
+    @apply font-heading text-center;
+    display: inline-block;
+    margin-right: auto;
+    position: relative;
+    background: url('../../img/bg-trait.webp') no-repeat;
+    background-position: center bottom;
+    background-size: 200% 0.6rem;
+    padding-bottom: 0.4rem;
+    padding-right: 2%;
+  }
+}
+
+ul {
+  list-style: square;
+}

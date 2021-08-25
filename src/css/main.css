@@ -4,27 +4,10 @@
 
 @import './components/accordion.css';
 @import './components/button.css';
+@import './components/typography.css';
 
-@layer base {
-  @font-face {
-    font-family: 'Ellipse';
-    src: url('../fonts/EllipseITCTT-Bold.woff2') format('woff2'),
-      url('../fonts/EllipseITCTT-Bold.woff') format('woff');
-  }
-
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
-
-  h1 {
-    @apply font-heading;
-  }
-
-  h2 {
-    @apply font-light;
-  }
-
-  html {
-    font-family: 'Noto Sans JP', sans-serif;
-  }
+main p {
+  @apply mb-5;
 }
 
 img {
