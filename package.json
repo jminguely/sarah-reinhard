@@ -2,14 +2,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "prebuild": "yarn build:styles",
-    "prestart": "yarn build:styles"
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.5",
-    "postcss": "^7.0.36",
+    "posthtml-include": "^1.7.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
   },
   "dependencies": {
