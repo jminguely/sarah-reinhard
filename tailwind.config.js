@@ -20,7 +20,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      'sans': ['"Noto Sans JP"', 'sans-serif'],
+      'sans': ['"Brown"', 'sans-serif'],
       'heading': ['Ellipse', 'sans-serif'],
     },
     extend: {}

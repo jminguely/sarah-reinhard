@@ -4,6 +4,7 @@
   outline: none;
   transition: 0.4s;
   position: relative;
+  font-weight: 700;
 
   &.active,
   &:hover {
